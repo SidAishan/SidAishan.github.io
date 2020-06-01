@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aishan's Projects</title>
+    <description>Barber is a blog theme for Jekyll built by Thomas Vaeth for Samesies using HTML, Sass, and JavaScript.
+</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 01 Jun 2020 18:21:15 +0800</pubDate>
+    <lastBuildDate>Mon, 01 Jun 2020 18:21:15 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>虚假信息检测系统</title>
+        <description>&lt;p&gt;拟在展示各消息谣言概率的同时，用可视化的方式呈现对数据集整体及单个事件统计分析的结果，给予用户可靠的参考信息&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“流丸止于瓯臾，流言止于智者。”
+&lt;cite&gt;《荀子·大略》&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;主页面&quot;&gt;主页面&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/page_home.jpg&quot; alt=&quot;Homepage&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;本模块负责展示事件的内容、点赞数目、转发数目和输入模型得到的谣言概率。&lt;/li&gt;
+  &lt;li&gt;用户通过点击上方导航栏可以跳转至其他功能页面，最下方可以换页查阅更多事件。&lt;/li&gt;
+  &lt;li&gt;当鼠标滑动时， 经过的事件信息会高亮显示，点击则可跳转至详情页面查看关于该事件的统计信息。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;事件详情页面&quot;&gt;事件详情页面&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/page_detail_0.jpg&quot; alt=&quot;Placeholder&quot; /&gt;
+&lt;img src=&quot;/assets/images/page_detail_1.jpg&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;清晰呈现事件中消息级数对应转发评论数量，在传播拓扑图中不同层级的节点颜色不同，使得观察更加直观，当鼠标移动到节点上时，会出现节点的消息id。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;数据集统计页面&quot;&gt;数据集统计页面&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/page_dataset_0.jpg&quot; alt=&quot;Placeholder&quot; /&gt;
+&lt;img src=&quot;/assets/images/page_dataset_1.jpg&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;从数据集整体出发展示分析成果，使用 WordCloud 工具选取出现频率最高的词语， 构造了谣言数据集的词云展示图。&lt;/li&gt;
+  &lt;li&gt;在用户认证情况饼状图中，当光标移动 到相应的区域会显示该群体对应的人数及占比。
+&lt;!-- 3. 通过图片展示可以发现未认证的谣言发布者明显多于经过认证的谣言发布者和未经认证的真实消息发布者，占发布消息总人数的 31.19%。 --&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;各系统性能比较模块&quot;&gt;各系统性能比较模块&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/page_model_0.jpg&quot; alt=&quot;Placeholder&quot; /&gt;
+&lt;img src=&quot;/assets/images/page_model_1.jpg&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;展示了不同模型性能之间的差异，在柱状图中标记了准确率最大的点，用户通过 滑动鼠标观察到各个指标的具体数值。&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 01 Jun 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/06/01/rumor-detection-system/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/06/01/rumor-detection-system/</guid>
+        
+        <category>Graduation Project</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>汽车口碑大数据平台</title>
+        <description>&lt;p&gt;对汽车消费者行为大数据进行有效整合分析，实现包含六个功能模块的Web平台&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;主页面&quot;&gt;主页面&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/AutoCar_index_page.jpg&quot; alt=&quot;Homepage&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Mon, 01 Jun 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2020/06/01/autocar_bigdata-platform/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/06/01/autocar_bigdata-platform/</guid>
+        
+        <category>Training Project</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
