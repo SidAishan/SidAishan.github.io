@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Jun 2020 22:59:43 +0800</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2020 22:59:43 +0800</lastBuildDate>
+    <pubDate>Tue, 02 Jun 2020 16:05:58 +0800</pubDate>
+    <lastBuildDate>Tue, 02 Jun 2020 16:05:58 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -60,6 +60,10 @@
 
 &lt;p&gt;展示了不同模型性能之间的差异，在柱状图中标记了准确率最大的点，用户通过 滑动鼠标观察到各个指标的具体数值。&lt;/p&gt;
 
+&lt;hr /&gt;
+&lt;h3 id=&quot;reference&quot;&gt;Reference&lt;/h3&gt;
+&lt;p&gt;系统前端布局参考：
+&lt;a href=&quot;https://anyway.fm/&quot;&gt;Anyway.fm&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jun 2020 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2020/06/01/rumor-detection-system/</link>
@@ -149,6 +153,21 @@
         <guid isPermaLink="true">http://localhost:4000/2020/06/01/autocar_bigdata-platform/</guid>
         
         <category>Training Project</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>敬请期待</title>
+        <description>&lt;h1&gt;······&lt;/h1&gt;
+
+&lt;h3 id=&quot;reference&quot;&gt;Reference&lt;/h3&gt;
+&lt;p&gt;Gif来自：
+&lt;a href=&quot;https://dribbble.com/Volorf&quot;&gt;Oleg Frolov-Dribbble&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Jul 1998 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/1998/07/13/continue-to-update/</link>
+        <guid isPermaLink="true">http://localhost:4000/1998/07/13/continue-to-update/</guid>
         
         
       </item>

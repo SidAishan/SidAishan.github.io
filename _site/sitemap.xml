@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/1998/07/13/continue-to-update/</loc>
+<lastmod>1998-07-13T00:00:00+08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/2020/06/01/autocar_bigdata-platform/</loc>
 <lastmod>2020-06-01T00:00:00+08:00</lastmod>
 </url>
@@ -12,9 +16,6 @@
 <loc>http://localhost:4000/404</loc>
 </url>
 <url>
-<loc>http://localhost:4000/subscribe/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
@@ -22,5 +23,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/tag/graduation-project/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/pdf/resume.pdf</loc>
+<lastmod>2020-06-02T14:16:02+08:00</lastmod>
 </url>
 </urlset>
