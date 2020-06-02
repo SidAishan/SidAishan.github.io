@@ -1,8 +1,8 @@
 # Site/SEO settings
-email: okay@samesies.io
+email: aishanliu33@gmail.com
 baseurl: ""
 permalink: /:year/:month/:day/:title/
-google_analytics: 
+google_analytics: UA-168251395-1
 
 name: Aishan Liu
 title: Aishan's Projects
@@ -39,7 +39,7 @@ mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
 author:
   - name: Aishan Liu
     bio: 刘爱杉是一名大四计算机专业毕业生，目前准备就读英国爱丁堡大学Advanced Design Informatics专业，喜爱背包旅行。
-    url: http://thomasvaeth.com
+    # url: http://thomasvaeth.com
 
 # Pagination settings
 pagination:

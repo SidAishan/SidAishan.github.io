@@ -6,13 +6,13 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Jun 2020 18:21:15 +0800</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2020 18:21:15 +0800</lastBuildDate>
+    <pubDate>Mon, 01 Jun 2020 22:59:43 +0800</pubDate>
+    <lastBuildDate>Mon, 01 Jun 2020 22:59:43 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>虚假信息检测系统</title>
-        <description>&lt;p&gt;拟在展示各消息谣言概率的同时，用可视化的方式呈现对数据集整体及单个事件统计分析的结果，给予用户可靠的参考信息&lt;/p&gt;
+        <description>&lt;p&gt;拟在展示各消息谣言概率的同时，可视化呈现从数据集到单个事件统计分析的结果，给予用户可靠的参考信息&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -80,6 +80,69 @@
 &lt;p&gt;&lt;img src=&quot;/assets/images/AutoCar_index_page.jpg&quot; alt=&quot;Homepage&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
+
+&lt;h3 id=&quot;市场占比&quot;&gt;市场占比&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/AutoCar_marketRate_pieChart_page.jpg&quot; alt=&quot;Homepage&quot; /&gt;
+功能描述：通过饼状图加时间轴的形式，我们向用户呈现了2015-2018年，新能源汽车和传统能源汽车的口碑数量对比，一定程度上反映了两者的市场占比。&lt;/p&gt;
+
+&lt;p&gt;用户操作：本功能无需用户输入任何参数，该功能的时间轴设置了自动跳转，如果希望暂停时间轴，可以点击时间轴左侧的暂停按钮，如果希望显示特定的某年的统计图，可以点击时间轴上对应年份的按钮。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;口碑规模&quot;&gt;口碑规模&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/AutoCar_userComment_barChart_page.jpg&quot; alt=&quot;Homepage&quot; /&gt;
+功能描述：通过柱状图配合时间轴，我们向用户呈现了2015-2018年，各车型的口碑数量规模，主要目的在于向用户呈现我们使用数据的规模情况。&lt;/p&gt;
+
+&lt;p&gt;用户操作：本功能无需用户输入任何参数，该功能的时间轴设置了自动跳转，如果希望暂停时间轴，可以点击时间轴左侧的暂停按钮，如果希望显示特定的某年的统计图，可以点击时间轴上对应年份的按钮。如果希望读取特定年份的某车型的口碑数量情况，只需使鼠标悬停在柱状图对应的条柱上。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;油耗反馈&quot;&gt;油耗反馈&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/AutoCar_youhao_lineGraph_page.jpg&quot; alt=&quot;Homepage&quot; /&gt;
+功能描述：我们在一张图标里，用三根颜色不同的线条，展现不同车型对应的最大、平均、最小油耗量，主要目的在于向用户呈现不同车型的实际消耗量。&lt;/p&gt;
+
+&lt;p&gt;用户操作：本功能无需用户输入任何参数，自动向数据库发送请求，并将数据展示在图表中，并用不同颜色的线条区分。如果用户希望得到某车型的准确油耗情况，只需使鼠标悬停在柱状图对应的点上即可。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;评分top5&quot;&gt;评分Top5&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/AutoCar_grade_TopFive_page.jpg&quot; alt=&quot;Homepage&quot; /&gt;
+功能描述：我们设置了一个下拉框，供用户选择想要查看的车型。用户选择完后，下方的图表里将会显示用户所选车型的评分前5名车辆信息，并且筛选去掉了销售数量小于20的车种。&lt;/p&gt;
+
+&lt;p&gt;用户操作：本模块需要用户在下拉框中选择车型，并且只可以选择一种。选择完毕后将会在界面下方自动出现图表，展示该车型前五好评的车款。如果用户想要了解某一车款具体的评分、销量，只需要将鼠标悬停在该车款的条柱上即可。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;指标pk&quot;&gt;指标PK&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/AutoCar_metrics_pk_page.jpg&quot; alt=&quot;Homepage&quot; /&gt;
+功能描述：该功能主要通过雷达图展示同车型不同车款各指标参数的对比，让用户更加直观地了解各个车款的优劣情况。&lt;/p&gt;
+
+&lt;p&gt;用户操作：用户首先需要点击最左侧的下拉菜单，选择关注的车型（默认为MPV），之后，右侧两个显示车款的下拉菜单将会根据用户选择的车型，显示该车型下辖的各类车款，用户可以选择下拉菜单中的两类车款进行对比，本功能模块允许用户将这两个下拉菜单的值设置为相同，只观察一个车款的相应参数。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;价位筛选&quot;&gt;价位筛选&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/AutoCar_price_page.jpg&quot; alt=&quot;Homepage&quot; /&gt;
+功能描述：该功能以用户输入的价格、车型作为筛选条件，然后对符合条件的车按评分进行排序，选出评分最高的10辆车进行推荐和展示。&lt;/p&gt;
+
+&lt;p&gt;用户操作：用户首先需要填写最低、最高的价格区间，然后选择自己关注的车型，复选框可以多选，如果点击全选按钮，则选择全部车型，反之，如果点击全不选按钮，则取消所有复选框的选中，每当用户改变一次复选框中的值，下方推荐栏中就会自动更新推荐的车辆，无需用户点击提交或确定按钮。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;车主吐槽&quot;&gt;车主吐槽&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/AutoCar_user_tweet_page.jpg&quot; alt=&quot;Homepage&quot; /&gt;
+&lt;img src=&quot;/assets/images/AutoCar_user_tweet_page_2.jpg&quot; alt=&quot;Homepage&quot; /&gt;
+功能描述：该功能主要为用户搜索指定车型或品牌，关于某项或多项指标的口碑评价，口碑评价来源于真实的汽车司机的语言评价。&lt;/p&gt;
+
+&lt;p&gt;用户操作：用户需要在输入框中输入关注的某个汽车品牌或者某个品牌旗下的某个具体的车型，然后点击加号，可以选择自己关注的某个或多个汽车指标，若其中没有用户关注的指标，可以在自定义中自由设置。选择完这两个参数后，即可点击搜索。如果用户缺省其中的一项也是完全可以的。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;地域销售&quot;&gt;地域销售&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/AutoCar_area_page.jpg&quot; alt=&quot;Homepage&quot; /&gt;
+功能描述：我们在该模块展示了一张地图，包含全国地图和对应的省地图，向用户展示各省市的4年销售数量信息。&lt;/p&gt;
+
+&lt;p&gt;用户操作：该模块只需要用户点击左侧的中国地图选择省份，将会自动在右侧展示所选的省份的地图，并用颜色区别销售数量的高低。如果用户想要直到具体到某市的销售数量，只要将鼠标悬停在改市上，就会显示该市近四年销售数量。&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jun 2020 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2020/06/01/autocar_bigdata-platform/</link>
